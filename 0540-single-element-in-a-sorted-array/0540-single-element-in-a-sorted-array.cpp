@@ -1,12 +1,12 @@
 class Solution {
 public:
-    /*
+    
     int singleNonDuplicate(vector<int>& nums) {
         
         int  n=nums.size();
         int  l=1;
         int r=n-2;
-        int m=r+l/2;
+       
         if(n==1)
             return nums[0];
             
@@ -18,6 +18,7 @@ public:
             return nums[n-1];
         
         while(l<=r){
+         int m=r+l/2;
             if(nums[m]!=nums[m+1]&&nums[m]!=nums[m-1]){
                 return nums[m];
             }
@@ -32,7 +33,7 @@ public:
         return -1;
     }
 };
-*/
+/*
     int singleNonDuplicate(vector<int>& arr) {
     int n = arr.size(); //size of the array.
 
@@ -67,3 +68,4 @@ public:
     return -1;
 }
 } ;
+*/
